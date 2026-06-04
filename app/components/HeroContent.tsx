@@ -27,23 +27,31 @@ export default function HeroContent() {
         </button>
       </div>
 
-      {/* Trust Badges */}
+      {/* Trust Badges - lebih menarik dengan icon dan badge */}
       <div className="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs sm:text-sm font-medium">
-        <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-          <div className="w-1 h-1 bg-red-600 rounded-full"></div>
-          Legalitas PT
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center px-2 py-1 rounded-full bg-yellow-400/90 border border-yellow-500 shadow text-yellow-900 font-bold gap-1">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" className="inline-block mr-1"><path d="M10 2L17 5V9C17 14 13.5 17 10 18C6.5 17 3 14 3 9V5L10 2Z" fill="#fff176" stroke="#fbc02d" strokeWidth="1.2"/><path d="M8.5 10.5L10 12L12 9.5" stroke="#fbc02d" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            Legalitas PT
+          </span>
         </div>
-        <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-          <div className="w-1 h-1 bg-red-600 rounded-full"></div>
-          Klien Dalam & Luar Negri
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center px-2 py-1 rounded-full bg-yellow-400/90 border border-yellow-500 shadow text-yellow-900 font-bold gap-1">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" className="inline-block mr-1"><path d="M10 2L17 5V9C17 14 13.5 17 10 18C6.5 17 3 14 3 9V5L10 2Z" fill="#fff176" stroke="#fbc02d" strokeWidth="1.2"/><path d="M8.5 10.5L10 12L12 9.5" stroke="#fbc02d" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            Klien Dalam & Luar Negri
+          </span>
         </div>
-        <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-          <div className="w-1 h-1 bg-red-600 rounded-full"></div>
-          Progress Laporan Rutin
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center px-2 py-1 rounded-full bg-yellow-400/90 border border-yellow-500 shadow text-yellow-900 font-bold gap-1">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" className="inline-block mr-1"><path d="M10 2L17 5V9C17 14 13.5 17 10 18C6.5 17 3 14 3 9V5L10 2Z" fill="#fff176" stroke="#fbc02d" strokeWidth="1.2"/><path d="M8.5 10.5L10 12L12 9.5" stroke="#fbc02d" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            Progress Laporan Rutin
+          </span>
         </div>
-        <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-          <div className="w-1 h-1 bg-red-600 rounded-full"></div>
-          Kontrak Aman
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center px-2 py-1 rounded-full bg-yellow-400/90 border border-yellow-500 shadow text-yellow-900 font-bold gap-1">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" className="inline-block mr-1"><path d="M10 2L17 5V9C17 14 13.5 17 10 18C6.5 17 3 14 3 9V5L10 2Z" fill="#fff176" stroke="#fbc02d" strokeWidth="1.2"/><path d="M8.5 10.5L10 12L12 9.5" stroke="#fbc02d" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            Kontrak Aman
+          </span>
         </div>
       </div>
     </div>

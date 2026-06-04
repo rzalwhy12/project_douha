@@ -6,12 +6,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="bg-red-600 text-white px-3 py-1 rounded-sm font-bold text-sm">
-            DOUHA
-          </div>
-          <div className="bg-red-600 text-white px-3 py-1 rounded-sm font-bold text-sm">
-            KONSTRUKSI
-          </div>
+          <img
+            src="/logo/DOUHA%20KONSTRUKSI.png"
+            alt="Douha Konstruksi Logo"
+            className="h-10 w-auto"
+          />
         </div>
 
         {/* Navigation */}

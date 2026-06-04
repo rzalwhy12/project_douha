@@ -1,10 +1,10 @@
     export default function GuideSection() {
     const authorities = [
-        "Berpengalaman menangani berbagai jenis proyek",
-        "Klien dari dalam kota, luar kota & luar negeri",
-        "Sistem kerja profesional dan terukur",
+        "Berpengalaman",
+        "Menangani klien dari dalam kota, luar kota & luar negeri serta pekerja sibuk",
+        "Sistem kerja profesional",
         "Tim ahli & legalitas PT yang terpercaya",
-        "Portfolio project yang nyata dan terbukti",
+        "Portfolio project yang nyata",
     ];
 
     return (
@@ -39,12 +39,12 @@
 
             {/* Authority Section */}
             <div>
-                <div className="mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Otoritas</h3>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-                    Inilah alasan mereka memilih Douha Konstruksi:
-                </p>
-                </div>
+                                <div className="mb-8">
+                                    <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Authority</h3>
+                                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                                        Inilah alasan mereka memilih Douha Konstruksi:
+                                    </p>
+                                </div>
 
                 <div className="space-y-3">
                 {authorities.map((authority, index) => (
