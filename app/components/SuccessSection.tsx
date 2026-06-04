@@ -1,50 +1,50 @@
 export default function SuccessSection() {
-  const benefits = [
-    "Proses pembangunan yang lebih tenang",
-    "Semua progress terlihat jelas tanpa harus pulang",
-    "Rumah impianmu terlihat jelas sebelum memulai",
-    "Laporan progress real time",
-    "Pekerjaan sesuai standar",
-    "Biaya terukur dari awal",
-    "Tim yang profesional",
-    "Rumah berdiri tanpa stres dan drama",
-  ];
-
   return (
-    <section className="bg-gray-50 dark:bg-gray-950 py-16 md:py-24 transition-colors">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Title */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900 dark:text-white mb-12 text-center">
-          Inilah yang Akan Anda Dapatkan
-        </h2>
+    <div className="bg-white px-4 py-4">
+      <section id="benefit" className="relative bg-black text-white py-24 md:py-32 rounded-2xl overflow-hidden">
+        {/* Background Image with Dark Overlay */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-40" 
+          style={{ backgroundImage: "url('/foto-serah-terima/DWI.png')" }} 
+        />
+        <div 
+          className="absolute inset-0"
+          style={{
+            background: "linear-gradient(to right, rgba(0,0,0,0.95) 10%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.3) 100%)"
+          }}
+        />
 
-        {/* Benefits Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
-          {benefits.map((benefit, index) => (
-            <div
-              key={index}
-              className="bg-white dark:bg-black rounded-lg p-6 border border-gray-200 dark:border-gray-800 hover:border-red-600/30 dark:hover:border-red-600/30 transition-all duration-200 group"
+        <div className="relative max-w-6xl mx-auto px-6 sm:px-8 lg:px-10 flex justify-center">
+          {/* Content Block — Centered in container, text left-aligned */}
+          <div className="max-w-2xl text-left w-full">
+            {/* Subtitle */}
+            <p className="text-gray-300 text-xs sm:text-sm uppercase tracking-[0.15em] font-semibold mb-3">
+              BAYANGKAN RUMAH IMPIAN ANDA TERWUJUD
+            </p>
+
+            {/* Headline */}
+            <h2 
+              className="text-4xl sm:text-5xl md:text-6xl font-black uppercase leading-[1.05] mb-6 text-white"
+              style={{ fontFamily: "var(--font-oswald), 'Impact', sans-serif" }}
             >
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-200">
-                  <span className="text-white text-xs font-bold">✓</span>
-                </div>
-                <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">{benefit}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+              PROSES PEMBANGUNAN LEBIH TENANG. RUMAH BERDIRI TANPA STRES DAN DRAMA.
+            </h2>
 
-        {/* Imagine Section */}
-        <div className="bg-red-600/10 dark:bg-red-600/10 border border-red-600/30 dark:border-red-600/30 rounded-lg p-8 md:p-12 text-center">
-          <h3 className="text-lg font-semibold text-gray-600 dark:text-gray-400 mb-4">Bayangkan…</h3>
-          <p className="text-lg sm:text-xl text-gray-900 dark:text-white leading-relaxed">
-            Rumah Anda pelan-pelan terbentuk, setiap minggunya Anda menerima
-            <span className="text-red-600 font-bold"> video progress,</span> dan Anda bisa
-            <span className="text-red-600 font-bold"> fokus bekerja tanpa cemas.</span>
-          </p>
+            {/* Body */}
+            <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-10 max-w-xl">
+              Semua progres terlihat jelas tanpa Anda harus sering pulang. Dengan laporan proyek real-time, pekerjaan sesuai standar, dan biaya yang terukur sejak awal, rumah impian Anda akan terwujud dengan aman sementara Anda tetap bisa fokus bekerja tanpa cemas.
+            </p>
+
+            {/* CTA Button */}
+            <a 
+              href="https://wa.me/6285655518055" target="_blank" rel="noopener noreferrer" 
+              className="inline-block bg-[#c9a227] hover:bg-[#b08d1e] text-black font-bold text-sm sm:text-base px-8 py-3.5 rounded-full transition-all duration-200"
+            >
+              Wujudkan Rumah Impian Anda
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
